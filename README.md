@@ -40,7 +40,4 @@ Se pudo constatar también que la mayoría de los precios de los criptoactivos e
 1. .
 2. .
 3. .
-4. .
-5. .
-6. .
-7. . 
+
