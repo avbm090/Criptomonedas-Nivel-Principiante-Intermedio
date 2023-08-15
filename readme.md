@@ -1,4 +1,4 @@
-# Proyecto de Machine Learning (Soy Henry): [Juegos de Steam]
+# Proyecto de Machine Learning (Soy Henry): [Criptomonedas]
 
 
 ## Descripción
