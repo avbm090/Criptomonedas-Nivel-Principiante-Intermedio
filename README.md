@@ -28,9 +28,13 @@ En la etapa de análisis exploratorio se inició aplicando un filtro para identi
 
 ### Archivos
 
-1. .
-2. .
-3. .
+1. etl-eda: se encuentra el desarrollo en código del etl y análisis exploratirio.
+   
+3. top_10_ultim.csv: archivo csv obtenido en la finalización del proceso de etl y eda.
+   
+5. top_10 : archivo de la base de datos filtrada luego del eda, en power BI. Se mdificó el formato de las columnas numéricas, se intercambiaron "." por "," y se cambió la columna "timestamp" a formato fecha.
+   
+7. Dashboard: archivo en formato pbix, corresponde a la presentación hecha en power BI. 
 
 ### Presentación en Power BI
 
