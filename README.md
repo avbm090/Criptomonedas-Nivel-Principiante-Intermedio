@@ -114,7 +114,7 @@ KPI 2: El indicador de entrada para la compra muestra que tanto el precio, así 
 KPI 3: El valor del desvío estándar anual es de 180 usd, el cual está por debajo del valor histórico de 1.120 usd. Se concluye con este indicador que de realizar compra, esta se puede mantener sin salir de la operatoria.
 
 - Bitcoin:
-- 
+  
 KPI 1: El indicador de volatilidad muestra que el precio de la varianza se encuentra por debajo de los valores históricos de 97.1293,78 y 5.816.999,57 correspondientes a la media y mediana de la varianza. Esto también sucede en temporalidad anual. Se concluye que, según este indicador, la volatilidad es relativamente baja.
 
 KPI 2: El indicador de entrada evidencia que el precio está por encima de los valores 11.630,12 usd y 20.092,37 usd correspondientes a la mediana y promedio histórico. Sin embargo el precio aún se encuentra por debajo de la media móvil. En temporalidad anual, el precio supera los valores de la mediana y el promedio anual, aunque aún no ha superado el valor de la media móvil anual. Se recomienda esperar un poco más para comprar.
