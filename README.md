@@ -9,7 +9,7 @@ Este proyecto tiene como propósito sugerir un conjunto de 10 criptoactivos para
 Para facilitar la comprensión del proyecto se introducen dos conceptos necesarios:
 
 - Capitalización:
-- 
+  
 El concepto de capitalización de mercado es una herramienta financiera empleada para medir el tamaño relativo de una criptomoneda, empresa u otro activo financiero en el mercado. En el contexto de las criptomonedas, este término se refiere al valor total de todas las unidades de una criptomoneda en circulación, multiplicado por su precio actual en el mercado.
 
 de forma más intuitiva, se podría decir que la capitalización de mercado refleja la valoración global de una criptomoneda en base a su precio y su cantidad de unidades en circulación.
@@ -63,8 +63,10 @@ Desde como fueron planteadas, estas KPIs actúan de manera independiente una de 
 ###### Indicador de Entrada: Corresponde al KPI 2.
 ###### Indicador de dispersión: Corresponde al KPI 3 ( si bien la varianza es también un inicador de dispersión, esta terminología se utiliza en este caso para referirse a esta KPI ).
 
+### Conclusiones desarrolladas con los indicadores:
+
 - Dogecoin:
-- 
+  
 KPI 1: El indicador de volatilidad muestra que la varianza, desde la temporalidad histórica, se encuentra por debajo de su mediana y media históricas, por lo que se concluye que la volatilidad es relativamente baja. En temporalidad anual correspondiente al período 2023, se puede apreciar que dicha tendencia continúa.
 
 KPI 2: En el gráfico de temporalidad histórica se observa que el precio del dogecoin atravesó la media móvil recientemente, pero esta aún se encuentra debajo de su media y mediana histórica, por lo que aún no es señal de cómpra. Sin embargo, en temporalidad anual, el precio atravesó la media móvil de abajo hacia arriba, pasó el precio de 0,075 usd de la mediana anual, y está por llegar al promedio anual de 0,076 usd. Se concluye que es conveniente esperar un poco más para realizar la compra de este criptoactivo.
