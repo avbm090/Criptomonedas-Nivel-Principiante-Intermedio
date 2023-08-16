@@ -9,6 +9,7 @@ Este proyecto tiene como propósito sugerir un conjunto de 10 criptoactivos para
 Para facilitar la comprensión del proyecto se introducen dos conceptos necesarios:
 
 - Capitalización:
+- 
 El concepto de capitalización de mercado es una herramienta financiera empleada para medir el tamaño relativo de una criptomoneda, empresa u otro activo financiero en el mercado. En el contexto de las criptomonedas, este término se refiere al valor total de todas las unidades de una criptomoneda en circulación, multiplicado por su precio actual en el mercado.
 
 de forma más intuitiva, se podría decir que la capitalización de mercado refleja la valoración global de una criptomoneda en base a su precio y su cantidad de unidades en circulación.
@@ -24,6 +25,12 @@ En este contexto, el volumen representa cantidad total de activos (en este caso 
 ### Resumen el trabajo realizado
 
 En la etapa de análisis exploratorio se inició aplicando un filtro para identificar las 10 criptomonedas con la mayor capitalización desde el año 2017 hasta la fecha actual. Basándose en esta selección, se determinó cuáles de estas criptomonedas serían recomendables adquirir y para cuáles sería más aconsejable esperar antes de realizar una compra. Estas decisiones se respaldaron mediante la creación de tres KPIs, los cuales se utilizaron para evaluar conjuntamente la viabilidad de adquirir estos criptoactivos y, en caso de haber realizado una compra, si resulta conveniente mantener dicha posición.
+
+### Archivos
+
+1. .
+2. .
+3. .
 
 ### Presentación en Power BI
 
@@ -68,36 +75,36 @@ KPI 3: El desvío estándar anual se encuentra en un valor de 0,008797 usd, lo c
 
 KPI 1: El indicador de volatilidad muestra que el valor de la varianza está por debajo de los valores de la media y mediana histórica. Se puede afirmar que la volatilidad es relativamente baja.
 
-KPI 2: El indicador histórico muestra que el precio ha superado el valor de 0,226 usd, pero aún no ha llegado a superar el precio de 0,451. Por otro lado, se observa que el precio aún no ha atravesado la media móvil. por otro lado, en el transcurso del año se observa que el precio no ha sobrepasado la media y mediana anual, por lo que se espera prudencia a la hora de realizar la compra.
+KPI 2: El indicador histórico muestra que el precio ha superado el valor de 0,226 usd, pero aún no ha llegado a superar el precio de 0,451 usd. Por otro lado, se observa que el precio aún no ha atravesado la media móvil. También se observa que en el transcurso del año el precio no ha sobrepasado la media y mediana anual, por lo que se espera prudencia a la hora de realizar la compra.
 
-KPI 3: El indicador anual muestra que su valor está en 0,046, por debajo del histórico, cuyo valor es 0,587. Mientras este esté continúe debajo del valor anual, se puede considerar conservar la compra en caso de haberlo hecho.
+KPI 3: El indicador anual muestra que el valor del desvío estándar es de 0,046 usd, por debajo del valor histórico de 0,587 usd. Se aconcluye que es posible mantener la operatoria en caso de haber realizado una compra.
 
 - Ripple:
-- 
+   
 KPI 1: El indicador de volatilidad histórico y anual muestran que la varianza se encuentra sobre el valor 0,001. Se recomienda esperar a que baje un poco más la volatilidad.
 
-KPI 2: El precio ya tocó y pasó la media móvil el 1 de Febrero de este año. Por otro lado, ha superado los valores de 0,0393 y 0,500 valores de media y mediana histórica. En temporalidad anual sucede lo mismo, por lo que el objetivo para este KPI se cumple.
+KPI 2: El precio ya tocó y pasó la media móvil el 1 de Febrero de este año. Por otro lado, éste ya ha superado los valores de 0,0393 usd y 0,500 usd, valores de media y mediana histórica. En temporalidad anual sucede lo mismo, por lo que sería oportuno efectuar en este momento la compra.
 
-KPI 3: El desvío estándar histórico está en el valor 0,346, siendo el anual de 0,106. Se considera que el objetivo de esta KPI se cumple con caso de compra.
+KPI 3: El desvío estándar histórico está en el valor 0,346 usd, siendo el anual de 0,106 usd. Se aconcluye que es posible mantener la operatoria en caso de haber realizado una compra.
 
 - Solana:
  
 KPI 1: El indicador de volatilidad muestra una varianza inferior al valor de la mediana y del promedio, cuyos valores son de 11,28 y de 100,73 respectivamente. Se cumple el objetivo de esta KPI en temporalidad histórica y anual. Se asume entonces que la volatilidad es relativamente baja.
 
-KPI 2: El precio se encuentra por encima de la media móvil histórica, y a su vez está por debajo de los valores de 30,42 usd y 49,74, valores de la mediana y media histórica. Sin embargo, en temporalidad anual se han cumplido los objetivos de la KPI, por lo que se recomienda la compra del criptoactivo. 
+KPI 2: El precio se encuentra por encima de la media móvil histórica, y a su vez está por debajo de los valores de 30,42 usd y 49,74 usd, valores de la mediana y media histórica. Sin embargo, en temporalidad anual se han cumplido los objetivos de la KPI, por lo que se recomienda la compra del criptoactivo. 
 
-KPI 3: El desvío estándar anual está muy por debajo del histórico, por lo que se cumple el objetivo de este KPI.
+KPI 3: El desvío estándar anual está muy por debajo del histórico. Se aconcluye que es posible mantener la operatoria en caso de haber realizado una compra.
 
 - Binancecoin:
-- 
-KPI 1: El indicador de volatilidad muestra que la varianza está por debajo de los valores históricos, y a su vez, en temporalidad anual, por debajo de los valores de la media y mediana ( debajo de 108,29 y 232,58 ). Se cumple el objetivo de este KPI y se considera que la volatilidad es relativamente baja.
+  
+KPI 1: El indicador de volatilidad muestra que la varianza está por debajo de los valores históricos, y a su vez, en temporalidad anual, por debajo de los valores de la media y mediana ( debajo de 108,29 usd  y 232,58 usd ). Se cumple el objetivo de este KPI y se considera que la volatilidad es relativamente baja.
 
-KPI 2: El indicador histórico muestra que, si bien el precio está por encima de los valores de 28,67 usd y de 158 usd correspondientes a la mediana y al promedio, aún este no atravesó la media móvil. En temporalidad anual, se observa que el precio no ha superado ninguno de las métricas, por lo que se recomienda esperar un poco más para la compra.
+KPI 2: El indicador histórico muestra que, si bien el precio está por encima de los valores de 28,67 usd y de 158 usd correspondientes a la mediana y al promedio, aún este no atravesó la media móvil. En temporalidad anual, se observa que el precio no ha superado ninguno de las métricas, por lo que se recomienda esperar un poco más para concretar la operatoria de la compra.
 
-KPI 3: El desvío estándar anual se encuentra en 34,84 usd muy por debajo del histórico que es de 177,98 usd. En caso de realizar compra este KPI cumple con su objetivo.
+KPI 3: El desvío estándar anual se encuentra en 34,84 usd muy por debajo del histórico que es de 177,98 usd. Se aconcluye que es posible mantener la operatoria en caso de haber realizado una compra.
 
 - Staked-ether:
-- 
+  
 KPI 1: El indicador de volatilidad evidencia que la varianza está por debajo de los valores de 29.335,09 y de 51.347,92 que corresponden a los valores de la media y mediana históricas. Por otro lado, en temporalidad anual, se evidencia la misma característica, en este caso está por debajo de los valores de 4.329,78 y 7.671,53. Se cumple el objetivo del KPI y se considera que la varianza se encuentra relativamente baja.
 
 KPI 2: El indicador de entrada para la compra muestra que tanto el precio, así como también la media móvil y el promedio y la mediana histórica se encuentran muy cercanos. En temporalidad anual se observa que el precio está por debajo de la media móvil, la tendencia se observa bajista, aunque aún no está por debajo de la media y mediana anual. Se recomienda no comprar aún.
@@ -136,7 +143,7 @@ KPI 2: El indicador de entrada muestra que este criptoactivo ha sufrido muchos c
 
 KPI 3: El desvío estándar histórico de este criptoactivo se encuentra en un valor de 0,00313 usd, mientras que el anual es de 0,00258 usd. De realizar una compra, esta operación se puede mantener.
 
-### Desarrollo del análisis exploratorio
+### Lectura optativa: Desarrollo del análisis exploratorio
 
 - Análisis exploratorio de los datos: Previo al desarrollo de los dashboards, hubo un proceso de filtrado de datos. Dado que la cantidad de estos era excesiva, se decidió hacer un primer filtro determinado por su capitalización, es decir, se consideraron los 10 criptoactivos con mayor capitalización que figuraban en la base de datos de la API, y esto aceleró el tiempo de recolección de los mismos. Otro aspecto importante del análisis exploratorio fue considerar el uso de medias móviles, que sirvieron para comprender mejor el comportamiento de las tendencias de dichos criptoactivos. Por último, se crearon gráficos de volúmen de compras para corroborar si actualmente había o no mucha demanda de compra, en comparación con los datos históricos.
 
@@ -150,9 +157,5 @@ Se pudo constatar también que la mayoría de los precios de los criptoactivos e
 
 - Respecto al uso de las medias móviles, se pudo detectar que existe un patrón que podría servir como métrica para utilizar en los dashboards, y consiste en ver los cruces de estas con el precio en un mismo gráfico podría sugerir la compra o venta del criptoactivo. Sin embargo, esto no es evidencia suficiente para determinar tal acción.
 
-### Archivos
 
-1. .
-2. .
-3. .
 
