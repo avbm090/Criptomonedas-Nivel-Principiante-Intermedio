@@ -33,7 +33,7 @@ La presentación consta de 10 pestañas, cada una dedicada al análisis de un cr
 ### Explicación de las KPI's
 
 - KPI 1: La alta volatilidad puede significar que el precio tiene la capacidad de moverse significativamente en un corto período de tiempo. Por lo tanto, este indicador tiene como objetivo determinar si el criptoactivo se encuentra en un período de volatilidad baja, para reducir el riesgo de compra.
-Para tal fin, se utilizan dos métricas en un mismo gráfico: La representación de la varianza histórica en función del tiempo, y el valor de su mediana y media históricas, de tal manera que, si su valor está por debajo de estas, se asume que no hay riesgo de compra. Se utilizó esta métrica porque presenta una sensibilidad a los cambios del precio, por sus características matemáticas.
+Para tal fin, se utilizan tres métricas en un mismo gráfico: La representación de la varianza histórica en función del tiempo, y el valor de su mediana y media históricas, de tal manera que, si su valor está por debajo de estas, se asume que la volatilidad es relativamente baja y no hay riesgo de compra, en caso contrario, se podría considerar riesgo leve o alto. El motivo por el cual se utilizó la varianza es porque presenta una gran sensibilidad a los cambios del precio, por sus características matemáticas.
 
 - KPI 2: El objetivo de este indicador es detectar en un mismo gráfico de líneas el cruce del precio con el de tres métricas: La media móvil, el promedio y moda históricas.
 Media móvil:
@@ -43,9 +43,9 @@ La forma en que se debe cruzar el precio con la media móvil, debe ser de tal ma
 #### - En el caso de que en temporalidad histórica, el precio haya atravesado a la media móvil desde abajo hacia arriba, y también lo haya hecho en temporalidad anual, también se considera una señal positiva, aunque no tan buena como la presentada en el caso anterior.
 #### - Si el precio no atraviesa la media móvil, el indicador queda automáticamente descartado de momento.
   
-- KPI 3: El desvío estándar en este contexto, da una idea de la dispersión de los datos respecto al promedio del mismo. Sería deseable que este valor, a nivel mensual, se encuentre por debajo del desvío estándar anual para continuar con la operatoria. Por tal motivo, el objetivo de este kpi es el de dar un indicador de si se puede continuar o no con dicha operatoria. Para esto, se utiliza un gráfico que muestra dos métricas: desvío estándar a través del tiempo y media móvil del desvío estándar. Si dichos gráficos están cerca, y si el desvío estándar mensual se encuentra por debajo del desvío estándar correspondiente a el año de la compra, se puede continuar en la operatoria, de lo contrario, sería conveniente vender.
+- KPI 3: El desvío estándar en este contexto, da una idea de la dispersión de los datos respecto al promedio del mismo. Sería deseable que este valor, a nivel anual, se encuentre por debajo del desvío estándar histórico para continuar con la operatoria. Por tal motivo, el objetivo de este kpi es el de dar un seguimiento una vez realizada la compra, 
 
-Desde como fueron planteadas, dichas métricas actúan de manera independiente una de la otra, pero se complementan entre sí con el objetivo de reducir los riesgos de la compra del inversor.
+Desde como fueron planteadas, estas KPIs actúan de manera independiente una de la otra, pero se complementan entre sí con el objetivo de reducir los riesgos de la elección de compra del inversor.
 
 ### Presentación del dashboard
 #### Términos utilizados:
@@ -56,16 +56,17 @@ Desde como fueron planteadas, dichas métricas actúan de manera independiente u
 ###### Indicador de Entrada: Corresponde al KPI 2.
 ###### Indicador de dispersión: Corresponde al KPI 3 ( si bien la varianza es también un inicador de dispersión, esta terminología se utiliza en este caso para referirse a esta KPI ).
 
-- Dogecoin: 
-KPI 1: El indicador de la varianza muestra que desde la temporalidad histórica, esta se encuentra por debajo de su mediana y media histórica, por lo que se asume que la volatilidad es relativamente baja. En temporalidad anual correspondiente al período 2023, se puede apreciar que dicha tendencia continúa.
+- Dogecoin:
+- 
+KPI 1: El indicador de volatilidad muestra que la varianza, desde la temporalidad histórica, se encuentra por debajo de su mediana y media históricas, por lo que se concluye que la volatilidad es relativamente baja. En temporalidad anual correspondiente al período 2023, se puede apreciar que dicha tendencia continúa.
 
-KPI 2: En el gráfico de temporalidad histórica se observa que el precio del dogecoin atravesó la media móvil recientemente, pero esta aún se encuentra debajo de su media y mediana histórica, por lo que aún no es señal de cómpra. Sin embargo, en temporalidad anual, el precio atravesó la media móvil de abajo hacia arriba, pasó el precio de 0,075 de la mediana anual, y está por pasar el promedio anual de 0,076. De hacer esto, sería una señal más a favor de la compra.
+KPI 2: En el gráfico de temporalidad histórica se observa que el precio del dogecoin atravesó la media móvil recientemente, pero esta aún se encuentra debajo de su media y mediana histórica, por lo que aún no es señal de cómpra. Sin embargo, en temporalidad anual, el precio atravesó la media móvil de abajo hacia arriba, pasó el precio de 0,075 usd de la mediana anual, y está por llegar al promedio anual de 0,076 usd. Se concluye que es conveniente esperar un poco más para realizar la compra de este criptoactivo.
 
-KPI 3: El desvío estándar anual se encuentra en un valor de 0,008797, lo cual es inferior al valor anual de 0,01. De comprar dicho criptoactivo se puede mantener en el tiempo siempre y cuando no supere este valor. 
+KPI 3: El desvío estándar anual se encuentra en un valor de 0,008797 usd, lo cual es inferior al valor anual de 0,01 usd. De realizarse la compra de este criptoactivo se podría mantener la operatoria. 
 
 - Cardano:
 
-KPI 1: El indicador de varianza indica que estamos por debajo de los valores de la media y mediana histórica. Se puede afirmar que la volatilidad es relativamente baja. Por otro lado, en el transcurso del año se cumple la misma característica.
+KPI 1: El indicador de volatilidad muestra que el valor de la varianza está por debajo de los valores de la media y mediana histórica. Se puede afirmar que la volatilidad es relativamente baja.
 
 KPI 2: El indicador histórico muestra que el precio ha superado el valor de 0,226 usd, pero aún no ha llegado a superar el precio de 0,451. Por otro lado, se observa que el precio aún no ha atravesado la media móvil. por otro lado, en el transcurso del año se observa que el precio no ha sobrepasado la media y mediana anual, por lo que se espera prudencia a la hora de realizar la compra.
 
