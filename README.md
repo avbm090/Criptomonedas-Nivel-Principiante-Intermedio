@@ -5,13 +5,20 @@
 
 Este proyecto tiene como propósito sugerir un conjunto de 10 criptoactivos para un grupo de inversores. A través de la creación de tres KPIs, se buscará determinar si es un momento adecuado para realizar una compra. Es importante aclarar que esta iniciativa tiene un enfoque estrictamente pedagógico y no constituye una recomendación de inversión real.
 
+Para facilitar la comprensión del proyecto se introducen dos conceptos necesarios:
+
+Capitalización:
 El concepto de capitalización de mercado es una herramienta financiera empleada para medir el tamaño relativo de una criptomoneda, empresa u otro activo financiero en el mercado. En el contexto de las criptomonedas, este término se refiere al valor total de todas las unidades de una criptomoneda en circulación, multiplicado por su precio actual en el mercado.
 
-En palabras más sencillas, la capitalización de mercado refleja la valoración global de una criptomoneda con base en su precio y la cantidad de unidades de dicha criptomoneda que están en circulación.
+de forma más intuitiva, se podría decir que la capitalización de mercado refleja la valoración global de una criptomoneda en base a su precio y su cantidad de unidades en circulación.
 
 La fórmula para calcular la Capitalización de Mercado es la siguiente:
 
-Capitalización = Suma Total de Unidades en Circulación x Precio Actual
+Capitalización = Suma Total de Unidades en Circulación x Precio Actual.
+
+Volumen:
+
+En este contexto, el volumen representa cantidad total de activos (acciones, criptomonedas, etc.) que se han comprado o vendido en un período de tiempo determinado.
 
 ### KPI's
 
