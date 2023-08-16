@@ -11,24 +11,7 @@ En palabras más sencillas, la capitalización de mercado refleja la valoración
 
 La fórmula para calcular la Capitalización de Mercado es la siguiente:
 
-Capitalizaci
-o
-ˊ
-n de Mercado
-=
-Precio Actual
-×
-Suma Total de Unidades en Circulaci
-o
-ˊ
-n
-Capitalizaci 
-o
-ˊ
- n de Mercado=Precio Actual×Suma Total de Unidades en Circulaci 
-o
-ˊ
- n
+Capitalización = Suma Total de Unidades en Circulación x Precio Actual
 
 ### KPI's
 
