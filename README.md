@@ -1,4 +1,4 @@
-# Proyecto de Machine Learning (Soy Henry): [Data Analitics]
+# Proyecto de Data Analytics (Soy Henry): [Criptomonedas]
 
 
 ## Descripción
