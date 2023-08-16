@@ -12,7 +12,7 @@ Presentación: La presentación está compuesta por 10 pestañas, cada una corre
 
   
 - KPI 1: La alta volatilidad puede significar que el precio tiene la capacidad de moverse significativamente en un corto período de tiempo. Por lo tanto, este indicador tiene como objetivo determinar si el criptoactivo se encuentra en un período de volatilidad baja, para reducir el riesgo de compra.
-Para tal fin, se utilizan dos métricas en un mismo gráfico: La representación de la varianza histórica en función del tiempo, y el valor de su mediana histórica, de tal manera que, si su línea esté por debajo de la mediana histórica, se asume que no hay riesgo de compra. Se utilizó esta métrica ( tanto la estática como la dinámica ) dado que esta presenta mayor sensibilidad a los cambios del precio, por sus características matemáticas.
+Para tal fin, se utilizan dos métricas en un mismo gráfico: La representación de la varianza histórica en función del tiempo, y el valor de su mediana y media históricas, de tal manera que, si su valor está por debajo de estas, se asume que no hay riesgo de compra. Se utilizó esta métrica porque presenta una sensibilidad a los cambios del precio, por sus características matemáticas.
 
 - KPI 2: El objetivo de este indicador es detectar en un mismo gráfico de líneas el cruce del precio con el de tres métricas: La media móvil, del promedio y moda históricos. La forma en que se deben cruzar debe ser de tal manera que el precio atraviese desde abajo hacia arriba a la media móvil, y además, este debe superar el precio y moda históricos. Por otro lado, se debe cumplir lo mismo en temporalidad anual.
 
