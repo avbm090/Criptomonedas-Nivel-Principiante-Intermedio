@@ -16,9 +16,9 @@ Para tal fin, se utilizan dos métricas en un mismo gráfico: La representación
 
 - KPI 2: El objetivo de este indicador es detectar en un mismo gráfico de líneas el cruce del precio con el de tres métricas: La media móvil, del promedio y moda históricos. La forma en que se deben cruzar debe ser de tal manera que el precio atraviese desde abajo hacia arriba a la media móvil, y además, este debe superar el precio y moda históricos. Por otro lado, se debe cumplir lo mismo en temporalidad anual.
 
-- En caso de que el precio se encuentre debajo de la media móvil con tendencia a atravesarlo y en temporalidad anual ya lo haya hecho, se considera una señal positiva. De ser así, esta sería una posible señal de compra.
-- En el caso de que en temporalidad histórica, el precio haya atravesado a la media móvil desde abajo hacia arriba, y también lo haya hecho en temporalidad anual, también se considera una señal positiva, aunque no tan buena como la presentada en el caso anterior.
-- Si el precio no atraviesa la media móvil, el indicador queda automáticamente descartado de momento.
+#### En caso de que el precio se encuentre debajo de la media móvil con tendencia a atravesarlo y en temporalidad anual ya lo haya hecho, se considera una señal positiva. De ser así, esta sería una posible señal de compra.
+#### En el caso de que en temporalidad histórica, el precio haya atravesado a la media móvil desde abajo hacia arriba, y también lo haya hecho en temporalidad anual, también se considera una señal positiva, aunque no tan buena como la presentada en el caso anterior.
+#### Si el precio no atraviesa la media móvil, el indicador queda automáticamente descartado de momento.
   
 - KPI 3: El desvío estándar en este contexto, da una idea de la dispersión de los datos respecto al promedio del mismo. Sería deseable que este valor, a nivel mensual, se encuentre por debajo del desvío estándar anual para continuar con la operatoria. Por tal motivo, el objetivo de este kpi es el de dar un indicador de si se puede continuar o no con dicha operatoria. Para esto, se utiliza un gráfico que muestra dos métricas: desvío estándar a través del tiempo y media móvil del desvío estándar. Si dichos gráficos están cerca, y si el desvío estándar mensual se encuentra por debajo del desvío estándar correspondiente a el año de la compra, se puede continuar en la operatoria, de lo contrario, sería conveniente vender.
 
