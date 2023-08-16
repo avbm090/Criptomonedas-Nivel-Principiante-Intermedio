@@ -3,7 +3,8 @@
 
 ## Descripción
 
-Este proyecto tiene como propósito sugerir un conjunto de 10 criptoactivos para un grupo de inversores. A través de la creación de tres KPIs, se buscará determinar si es un momento adecuado para realizar una compra. Es importante aclarar que esta iniciativa tiene un enfoque estrictamente pedagógico y no constituye una recomendación de inversión real.
+Este proyecto tiene como propósito sugerir un conjunto de 10 criptoactivos para un grupo de inversores. A través de la creación de tres KPIs, se buscará determinar si es un momento adecuado para realizar una compra. Es importante aclarar que esta iniciativa tiene un enfoque estrictamente pedagógico.
+
 
 Para facilitar la comprensión del proyecto se introducen dos conceptos necesarios:
 
@@ -18,17 +19,25 @@ Capitalización = Suma Total de Unidades en Circulación x Precio Actual.
 
 - Volumen:
 
-En este contexto, el volumen representa cantidad total de activos (acciones, criptomonedas, etc.) que se han comprado o vendido en un período de tiempo determinado.
+En este contexto, el volumen representa cantidad total de activos (en este caso criptomonedas) que se han comprado o vendido en un período de tiempo determinado.
 
-### KPI's
+### Resumen el trabajo realizado
 
-Presentación: La presentación está compuesta por 10 pestañas, cada una corresponde al análisis de un criptoactivo. En cada una se observan 3 KPI's los cuales actúan EN CONJUNTO para un objetivo en común: Se compra dicho activo o no se compra, y en caso de realizar una compra, si es conveniente mantener dicha compra en el tiempo.
+En la etapa de análisis exploratorio se inició aplicando un filtro para identificar las 10 criptomonedas con la mayor capitalización desde el año 2017 hasta la fecha actual. Basándose en esta selección, se determinó cuáles de estas criptomonedas serían recomendables adquirir y para cuáles sería más aconsejable esperar antes de realizar una compra. Estas decisiones se respaldaron mediante la creación de tres KPIs, los cuales se utilizaron para evaluar conjuntamente la viabilidad de adquirir estos criptoactivos y, en caso de haber realizado una compra, si resulta conveniente mantener dicha posición.
 
-  
+### Presentación en Power BI
+
+La presentación consta de 10 pestañas, cada una dedicada al análisis de un criptoactivo en particular. Cada pestaña contiene tres indicadores clave de desempeño (KPIs) relacionados con ese criptoactivo.
+
+
+### Explicación de las KPI's
+
 - KPI 1: La alta volatilidad puede significar que el precio tiene la capacidad de moverse significativamente en un corto período de tiempo. Por lo tanto, este indicador tiene como objetivo determinar si el criptoactivo se encuentra en un período de volatilidad baja, para reducir el riesgo de compra.
 Para tal fin, se utilizan dos métricas en un mismo gráfico: La representación de la varianza histórica en función del tiempo, y el valor de su mediana y media históricas, de tal manera que, si su valor está por debajo de estas, se asume que no hay riesgo de compra. Se utilizó esta métrica porque presenta una sensibilidad a los cambios del precio, por sus características matemáticas.
 
-- KPI 2: El objetivo de este indicador es detectar en un mismo gráfico de líneas el cruce del precio con el de tres métricas: La media móvil, del promedio y moda históricos. La forma en que se deben cruzar debe ser de tal manera que el precio atraviese desde abajo hacia arriba a la media móvil, y además, este debe superar el precio y moda históricos. Por otro lado, se debe cumplir lo mismo en temporalidad anual.
+- KPI 2: El objetivo de este indicador es detectar en un mismo gráfico de líneas el cruce del precio con el de tres métricas: La media móvil, el promedio y moda históricas.
+Media móvil:
+La forma en que se debe cruzar el precio con la media móvil, debe ser de tal manera que el precio la atraviese desde abajo hacia arriba. Por otro lado, se debe cumplir lo mismo en temporalidad anual actual. Es decir, en el lapso del inicio del año 2023 hasta el día 17 de agosto de 2023. A continuación se especifican los casos que se tendrán a consideración:
 
 #### - En caso de que el precio se encuentre debajo de la media móvil con tendencia a atravesarlo y en temporalidad anual ya lo haya hecho, se considera una señal positiva. De ser así, esta sería una posible señal de compra.
 #### - En el caso de que en temporalidad histórica, el precio haya atravesado a la media móvil desde abajo hacia arriba, y también lo haya hecho en temporalidad anual, también se considera una señal positiva, aunque no tan buena como la presentada en el caso anterior.
