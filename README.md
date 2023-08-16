@@ -31,11 +31,17 @@ Ejemplo:
 A continuación se detalla un ejemplo del uso de la media móvil para un conjunto de precios en dólares
 
 Día 1: 100 usd . No hay suficientes datos anteriores para calcular la media móvil.
+
 Día 2: (100 usd + 150 usd ) / 2 = 125 usd
+
 Día 3: (100 usd + 150 usd + 120 usd) / 3 = 123.33 usd
+
 Día 4: (150 usd + 120 usd + 180 usd) / 3 = 150 usd
+
 Día 5: (120 usd + 180 usd + 200 usd) / 3 = 166.67 usd
+
 Día 6: (180 usd + 200 usd + 160 usd) / 3 = 180 usd
+
 Día 7: (200 usd + 160 usd + 220 usd) / 3 = 193.33 usd
 
 En este ejemplo, la media móvil de 3 días ayuda a suavizar las fluctuaciones diarias y resalta la tendencia general en las ventas a lo largo de la semana. Cada valor de la media móvil es el promedio de los tres días anteriores, y el agrupamiento de tres días consecutivos se desplaza un día a la vez para calcular la media móvil en cada posición. 
