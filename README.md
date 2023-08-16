@@ -11,18 +11,23 @@
 Presentación: La presentación está compuesta por 10 pestañas, cada una corresponde al análisis de un criptoactivo. En cada una se observan 3 KPI's los cuales actúan EN CONJUNTO para un objetivo en común: Se compra dicho activo o no se compra, y en caso de realizar una compra, si es conveniente mantener dicha compra en el tiempo.
 
   
--KPI 1: La alta volatilidad puede significar que el precio tiene la capacidad de moverse significativamente en un corto período de tiempo. Por lo tanto, este indicador tiene como objetivo determinar si el criptoactivo se encuentra en un período de volatilidad baja, para reducir el riesgo de compra.
+- KPI 1: La alta volatilidad puede significar que el precio tiene la capacidad de moverse significativamente en un corto período de tiempo. Por lo tanto, este indicador tiene como objetivo determinar si el criptoactivo se encuentra en un período de volatilidad baja, para reducir el riesgo de compra.
 Para tal fin, se utilizan dos métricas en un mismo gráfico: La representación de la varianza histórica en función del tiempo, y el valor de su mediana histórica, de tal manera que, si su línea esté por debajo de la mediana histórica, se asume que no hay riesgo de compra. Se utilizó esta métrica ( tanto la estática como la dinámica ) dado que esta presenta mayor sensibilidad a los cambios del precio, por sus características matemáticas.
 
--KPI 2: El objetivo de este indicador es detectar en un mismo gráfico de líneas, el cruce del precio con el de tres métricas: La media móvil, del promedio y moda históricos. La forma en que se deben cruzar debe ser de tal manera que el precio atraviese desde abajo hacia arriba a la media móvil, y además, este debe superar el precio y moda históricos. De ser así, esta sería una posible señal de compra.
+- KPI 2: El objetivo de este indicador es detectar en un mismo gráfico de líneas, el cruce del precio con el de tres métricas: La media móvil, del promedio y moda históricos. La forma en que se deben cruzar debe ser de tal manera que el precio atraviese desde abajo hacia arriba a la media móvil, y además, este debe superar el precio y moda históricos. De ser así, esta sería una posible señal de compra.
 
--KPI 3: El desvío estándar en este contexto, da una idea de la dispersión de los datos respecto al promedio del mismo. Sería deseable que este valor, a nivel mensual, se encuentre por debajo del desvío estándar anual para continuar con la operatoria. Por tal motivo, el objetivo de este kpi es el de dar un indicador de si se puede continuar o no con dicha operatoria. Para esto, se utiliza un gráfico que muestra dos métricas: desvío estándar a través del tiempo y media móvil del desvío estándar. Si dichos gráficos están cerca, y si el desvío estándar mensual se encuentra por debajo del desvío estándar correspondiente a el año de la compra, se puede continuar en la operatoria, de lo contrario, sería conveniente vender.
+- KPI 3: El desvío estándar en este contexto, da una idea de la dispersión de los datos respecto al promedio del mismo. Sería deseable que este valor, a nivel mensual, se encuentre por debajo del desvío estándar anual para continuar con la operatoria. Por tal motivo, el objetivo de este kpi es el de dar un indicador de si se puede continuar o no con dicha operatoria. Para esto, se utiliza un gráfico que muestra dos métricas: desvío estándar a través del tiempo y media móvil del desvío estándar. Si dichos gráficos están cerca, y si el desvío estándar mensual se encuentra por debajo del desvío estándar correspondiente a el año de la compra, se puede continuar en la operatoria, de lo contrario, sería conveniente vender.
 
 Desde como fueron planteadas, dichas métricas actúan de manera independiente una de la otra, pero se complementan entre sí con el objetivo de reducir los riesgos de la compra del inversor.
 
 ### Presentación del dashboard
+#### Términos utilizados:
 
-Temporalidad histórica: Corresponde al período transcurrido desde el año 2017 hasta la actualidad.
+###### Temporalidad histórica: Corresponde al período transcurrido desde el año 2017 hasta la actualidad.
+###### Temporalidad anual: Corresponde al período transcurrido desde comienzos del año 2023 hasta la actualidad ( 17 de aosto de 2023 ).
+###### Indicador de Volatilidad: Corresponde al KPI 1.
+###### Indicador de Entrada: Corresponde al KPI 2.
+###### Indicador de dispersión: Corresponde al KPI 3 ( si bien la varianza es también un inicador de dispersión, esta terminología se utiliza en este caso para referirse a esta KPI ).
 
 Dogecoin: 
 KPI 1: El indicador de la varianza muestra que desde la temporalidad histórica, esta se encuentra por debajo de su mediana y media histórica, por lo que se asume que la volatilidad es relativamente baja. En temporalidad anual correspondiente al período 2023, se puede apreciar que dicha tendencia continúa.
