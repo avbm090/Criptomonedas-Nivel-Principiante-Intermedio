@@ -192,7 +192,7 @@ Se pudo constatar también que la mayoría de los precios de los criptoactivos e
 ## Tecnología Utilizada
 
 ![Python Logo](https://www.python.org/static/community_logos/python-logo.png)
-![Power BI Logo]([https://upload.wikimedia.org/wikipedia/commons/c/c9/Power_bi_logo_black.svg](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Power_bi_logo_black.svg/100px-Power_bi_logo_black.svg.png)https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Power_bi_logo_black.svg/100px-Power_bi_logo_black.svg.png)
+![Power BI Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Power_bi_logo_black.svg/100px-Power_bi_logo_black.svg.png)
 ![Jupyter Logo](https://jupyter.org/assets/main-logo.svg)
 
 
