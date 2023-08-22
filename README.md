@@ -195,5 +195,4 @@ Se pudo constatar también que la mayoría de los precios de los criptoactivos e
 ![Power BI Logo](https://www.iconfinder.com/icons/285681/power_bi_icon)
 ![Jupyter Logo](https://jupyter.org/assets/main-logo.svg)
 
-Recuerda que el enlace al logotipo de Power BI es solo una referencia y podría ser necesario proporcionar una URL válida si estás hospedando la imagen en línea. Asegúrate de ajustar los enlaces a los logotipos según tus necesidades.
 
