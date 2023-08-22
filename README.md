@@ -106,8 +106,7 @@ Las KPIs se desarrollan de manera independiente pero se complementan entre sí p
 
 ## Tecnología Utilizada
 
-- ![Python Logo](https://www.python.org/static/community_logos/python-logo.png)
-- ![Power BI Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Power_bi_logo_black.svg/100px-Power_bi_logo_black.svg.png)
-- ![Colab Logo](https://colab.research.google.com/img/colab_favicon.ico)
-
+- ![Python Logo](https://www.python.org/static/community_logos/python-logo.png =50x)
+- ![Power BI Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Power_bi_logo_black.svg/100px-Power_bi_logo_black.svg.png =50x)
+- ![Colab Logo](https://colab.research.google.com/img/colab_favicon.ico =50x)
 
