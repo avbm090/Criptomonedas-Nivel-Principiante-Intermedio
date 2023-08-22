@@ -189,5 +189,11 @@ Se pudo constatar también que la mayoría de los precios de los criptoactivos e
 
 - Respecto al uso de las medias móviles, se pudo detectar que existe un patrón que podría servir como métrica para utilizar en los dashboards, y consiste en ver los cruces de estas con el precio en un mismo gráfico podría sugerir la compra o venta del criptoactivo. Sin embargo, esto no es evidencia suficiente para determinar tal acción.
 
+## Tecnología Utilizada
 
+![Python Logo](https://www.python.org/static/community_logos/python-logo.png)
+![Power BI Logo](https://www.iconfinder.com/icons/285681/power_bi_icon)
+![Jupyter Logo](https://jupyter.org/assets/main-logo.svg)
+
+Recuerda que el enlace al logotipo de Power BI es solo una referencia y podría ser necesario proporcionar una URL válida si estás hospedando la imagen en línea. Asegúrate de ajustar los enlaces a los logotipos según tus necesidades.
 
