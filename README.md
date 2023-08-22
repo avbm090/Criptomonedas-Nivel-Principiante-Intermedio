@@ -192,7 +192,7 @@ Se pudo constatar también que la mayoría de los precios de los criptoactivos e
 ## Tecnología Utilizada
 
 ![Python Logo](https://www.python.org/static/community_logos/python-logo.png)
-![Power BI Logo](https://www.iconfinder.com/icons/285681/power_bi_icon)
+![Power BI Logo]([https://www.iconfinder.com/icons/285681/power_bi_icon](https://1000marcas.net/wp-content/uploads/2022/08/Microsoft-Power-BI-Logo.png)https://1000marcas.net/wp-content/uploads/2022/08/Microsoft-Power-BI-Logo.png)
 ![Jupyter Logo](https://jupyter.org/assets/main-logo.svg)
 
 
