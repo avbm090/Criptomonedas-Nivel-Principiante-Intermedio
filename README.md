@@ -193,6 +193,6 @@ Se pudo constatar también que la mayoría de los precios de los criptoactivos e
 
 ![Python Logo](https://www.python.org/static/community_logos/python-logo.png)
 ![Power BI Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Power_bi_logo_black.svg/100px-Power_bi_logo_black.svg.png)
-![Jupyter Logo](https://jupyter.org/assets/main-logo.svg)
+![Colab Logo]([https://jupyter.org/assets/main-logo.svg](https://colab.research.google.com/img/colab_favicon.ico)https://colab.research.google.com/img/colab_favicon.ico)
 
 
