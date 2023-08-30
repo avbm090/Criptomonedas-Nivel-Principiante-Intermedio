@@ -136,7 +136,7 @@ Las KPIs se desarrollan de manera independiente pero se complementan entre sí p
 
 **KPI 1:** El indicador de volatilidad muestra que el precio de la varianza se encuentra por debajo de los valores históricos de 97.1293,78 y 5.816.999,57 correspondientes a la media y mediana de la varianza. Esto también sucede en temporalidad anual. Se concluye que, según este indicador, la volatilidad es relativamente baja.
 
-**KPI 2:** El indicador de entrada evidencia que el precio está por encima de los valores 11.630,12 USD y 20.092,37 USD correspondientes a la mediana y promedio histórico. Sin embargo el precio aún se encuentra por debajo de la media móvil. En temporalidad anual, el precio supera los valores de la mediana y el promedio anual, aunque aún no ha superado el valor de la media móvil anual. Se recomienda esperar un poco más para comprar.
+**KPI 2:** El indicador de entrada evidencia que el precio está por encima de los valores 11.630,12 USD y 20.092,37 USD correspondientes a la mediana y promedio histórico. Sin embargo el precio aún se encuentra por debajo de la media móvil. En temporalidad anual, el precio supera los valores de la mediana y el promedio anual, aunque aún no ha superado el valor de la media móvil anual. Se recomienda no realizar una compra en este momento, y esperar a ver si el precio supera la media movil en temporalidad anual.
 
 **KPI 3:** El desvío estándar anual se encuentra en 3.670 USD, y su valor histórico es de 16.080 USD, por lo que se considera que de realizar una compra, esta se puede mantener.
 
